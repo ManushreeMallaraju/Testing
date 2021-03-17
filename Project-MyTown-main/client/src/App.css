@@ -1,0 +1,49 @@
+body{
+    background-color: #f3f4f4!important;
+}
+
+.article-wrapper{
+    text-decoration: none;
+    color: #000;
+    height: 595px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 14;
+    -webkit-box-orient: vertical;
+    box-shadow: 0 0 30px -20px rgb(0 0 0 / 20%);
+    transition: all .3s ease;
+    background-color: #fff;
+    padding:1em 1em 0 1em
+}
+.article-wrapper:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.article-wrapper img{
+    width: 100%;
+    height: 250px;
+}
+.help-block{
+    font-size: small;
+    color:red;
+}
+.has-error .form-control{
+    font-size: small;
+    border:1px solid red;
+}
+.blog-wrapper{
+    box-shadow: 0 0 30px -20px rgb(0 0 0 / 52%);
+    padding: 18px;
+    min-height: 20em;
+}
+.login-wrapper{
+    box-shadow: 0 0 30px -20px rgb(0 0 0 / 52%);
+    padding: 2em;
+    background-color: cadetblue;
+    border-radius: 4px;
+    color: #fff;
+}
+.success{
+    color: green;
+}
